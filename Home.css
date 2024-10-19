@@ -518,3 +518,11 @@ li a {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.CategoriesHr {
+  height: 1px;
+  background-color: var(--border);
+  border: none;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
