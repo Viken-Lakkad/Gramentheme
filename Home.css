@@ -365,4 +365,156 @@ li a {
 }
 
 .HeroDescription {
+  margin-top: 25px;
+  font-family: var(--montserrat);
+  font-size: 16px;
+  color: var(--paragraph);
+  line-height: 30px;
+}
+.HeroPrice {
+  margin-top: 30px;
+  font-family: var(--montserrat);
+  font-size: 16px;
+  color: var(--paragraph);
+  line-height: 30px;
+}
+
+.HeroPriceBold {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.HeroButton {
+  margin-top: 30px;
+  font-family: var(--montserrat);
+  font-size: 16px;
+  color: var(--white);
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.ShopNowButton {
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  color: var(--white);
+  font-size: 16px;
+  transition: var(--transition);
+}
+
+.ShopNowButton:hover {
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
+.ViewDetailsButton {
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  outline: none;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  color: var(--primary-color);
+  font-size: 16px;
+  margin-left: 20px;
+  transition: var(--transition);
+}
+
+.ViewDetailsButton:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+/* Category Section */
+
+.CategoriesWrapper {
+}
+
+.CategoriesTitle {
+  font-family: var(--prosto-one);
+  font-size: 20px;
+  color: var(--heading-color);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Category {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.CategoryImgWrapper1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: auto;
+  transition: var(--transition);
+}
+
+.CategoryImgWrapper2 {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin: auto;
+  transition: var(--transition);
+}
+
+.CategoryImgWrapper3 {
+  background-color: var(--sub-bg);
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin: auto;
+  transition: var(--transition);
+}
+
+.CategoryImgWrapper1:hover .CategoryImgWrapper3 {
+  background-color: rgb(250, 79, 9, 0.7);
+  border-top: 2px solid var(--primary-color);
+}
+
+.CategoryImgWrapper1:hover .image1 {
+  background-image: url(./Images/category-image1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.CategoryImgWrapper1:hover .image2 {
+  background-image: url(./Images/category-image2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.CategoryImgWrapper1:hover .image3 {
+  background-image: url(./Images/category-image3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.CategoryImgWrapper1:hover .image4 {
+  background-image: url(./Images/category-image4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.CategoryImgWrapper1:hover .image5 {
+  background-image: url(./Images/category-image5.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.CategoryImgWrapper1:hover .image6 {
+  background-image: url(./Images/category-image6.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
