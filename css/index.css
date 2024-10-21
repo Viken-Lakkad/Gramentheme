@@ -614,3 +614,57 @@ li a {
 .ProductCart:hover .ProductCartIcon {
   filter: brightness(0) invert(1);
 }
+
+/* Faverite */
+
+.FavouriteWrapper {
+  height: 500px;
+  background-image: url(../Images/discount-bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
+}
+
+.FavouriteImg {
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+}
+
+.FavouriteTitle {
+  font-family: var(--prosto-one);
+  color: var(--heading-color);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.FavouriteDescription {
+  font-weight: 300;
+  margin-left: 5%;
+  font-size: 18px;
+  margin-bottom: 5%;
+}
+
+/* Favorite Button */
+
+.FavouriteButtonSection {
+  margin-left: 5%;
+}
+
+.FavouriteButton {
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  color: var(--white);
+  font-size: 16px;
+  transition: var(--transition);
+}
+
+.FavouriteButton:hover {
+  background-color: var(--white);
+  color: var(--primary-color);
+}
