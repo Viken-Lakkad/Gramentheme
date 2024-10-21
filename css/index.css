@@ -500,6 +500,20 @@ li a {
 
 /* Product */
 
+.ProductList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.Product {
+  transition: var(--transition);
+}
+
+.Product:hover {
+  transform: translateY(-20px);
+}
+
 .ProductImg {
   margin-top: 5%;
   padding: 5% 5%;
@@ -545,4 +559,25 @@ li a {
 .ProductStarList {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.ProductCart {
+  width: 130%;
+  height: 60px;
+  border-top: 1px solid var(--border);
+  margin-left: -15%;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.ProductCartIcon {
+  height: 30px;
+}
+
+.ProductCart:hover {
+  background-color: var(--primary-color);
+}
+
+.ProductCart:hover .ProductCartIcon {
+  filter: brightness(0) invert(1);
 }
