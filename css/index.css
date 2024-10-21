@@ -189,8 +189,8 @@ li a {
 }
 .HeroPrice {
   margin-top: 30px;
-  font-family: var(--montserrat);
   font-size: 16px;
+  font-family: var(--montserrat);
   color: var(--paragraph);
   line-height: 30px;
 }
@@ -248,14 +248,19 @@ li a {
 /* Category Section */
 
 .CategoriesWrapper {
+  height: 450px;
+  margin-top: 10%;
 }
 
 .CategoriesTitle {
   font-family: var(--prosto-one);
   font-size: 20px;
   color: var(--heading-color);
-  text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 5%;
+}
+
+.categoryBar {
+  margin-bottom: 8%;
 }
 
 .Category {
@@ -290,46 +295,47 @@ li a {
 
 .CategoryImgWrapper1:hover .CategoryImgWrapper3 {
   background-color: rgb(250, 79, 9, 0.7);
-  border-top: 2px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-top: 4px solid var(--primary-color);
 }
 
 .CategoryImgWrapper1:hover .image1 {
-  background-image: url(./Images/category-image1.png);
+  background-image: url(../Images/category-image1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .CategoryImgWrapper1:hover .image2 {
-  background-image: url(./Images/category-image2.png);
+  background-image: url(../Images/category-image2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .CategoryImgWrapper1:hover .image3 {
-  background-image: url(./Images/category-image3.png);
+  background-image: url(../Images/category-image3.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .CategoryImgWrapper1:hover .image4 {
-  background-image: url(./Images/category-image4.png);
+  background-image: url(../Images/category-image4.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .CategoryImgWrapper1:hover .image5 {
-  background-image: url(./Images/category-image5.png);
+  background-image: url(../Images/category-image5.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .CategoryImgWrapper1:hover .image6 {
-  background-image: url(./Images/category-image6.png);
+  background-image: url(../Images/category-image6.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -339,6 +345,124 @@ li a {
   height: 1px;
   background-color: var(--border);
   border: none;
-  margin-top: 5%;
   margin-bottom: 2%;
+}
+
+/* Blog Section */
+
+.BlogWrapper {
+  height: 700px;
+  background-image: url(../Images/view-bg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
+}
+
+.Blog1 {
+  height: 590px;
+  background-color: var(--sub-bg);
+  border-radius: 13px;
+}
+
+.BlogImage1 {
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+.BlogTitle-Link {
+  text-decoration: none;
+}
+
+.BlogTitle {
+  font-family: var(--prosto-one);
+  color: var(--heading-color);
+  text-align: center;
+  font-size: 40px;
+  text-decoration: none;
+  transition: var(--transition);
+  margin-bottom: 5%;
+}
+
+.BlogTitle:hover {
+  color: var(--primary-color);
+}
+
+.BlogDescription {
+  font-size: 16px;
+  margin-bottom: 5%;
+  font-family: var(--montserrat);
+  font-weight: 500;
+  padding: 0 7%;
+  margin-bottom: 5%;
+  color: var(--paragraph);
+}
+
+.BlogButton {
+  padding: 2% 5%;
+  border-radius: 25px;
+}
+
+/* Blog button */
+
+.BlogButtonShop {
+  border: none;
+  outline: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: var(--transition);
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
+.BlogButtonShop:hover {
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+.Blog2 {
+  background-color: var(--sub-bg);
+  border-radius: 13px;
+}
+
+.Blog3 {
+  border-radius: 13px;
+  background-color: var(--sub-bg);
+}
+
+/* bolg2 secation */
+
+.BlogImage2 {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+
+.BlogTitle-2 {
+  font-family: var(--prosto-one);
+  color: var(--heading-color);
+  text-decoration: none;
+  transition: var(--transition);
+  margin-bottom: 5%;
+  font-size: 25px;
+  margin-left: 10%;
+  font-weight: 300;
+  margin-top: 10%;
+}
+
+.BlogTitle-2:hover {
+  color: var(--primary-color);
+}
+
+.BlogDescription-2 {
+  margin-left: 10%;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.Blog2Button {
+  margin-left: 10%;
+  margin-top: 10%;
 }

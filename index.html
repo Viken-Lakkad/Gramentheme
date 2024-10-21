@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odor - Vape Store WooCommerce</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/Home.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -182,7 +182,13 @@
 
     <section>
       <div class="container w-100 CategoriesWrapper">
-        <h2 class="CategoriesTitle">Our Top Categories</h2>
+        <h2
+          class="CategoriesTitle d-flex align-items-center justify-content-center gap-10"
+        >
+          <span class="title-icon"></span>
+          Our Top Categories
+          <span class="title-icon"></span>
+        </h2>
         <div class="categoryBar">
           <div class="Category">
             <!-- category 1 -->
@@ -299,12 +305,86 @@
             <!-- End -->
           </div>
         </div>
-        <hr class="w-100 CategoriesHr" />
+        <hr class="w-100 CategoriesHr mt-5" />
       </div>
     </section>
 
     <!-- Blog Section -->
 
-    <section></section>
+    <section>
+      <div class="w-100 BlogWrapper mt-5">
+        <div class="container w-100 d-flex gap-20">
+          <div class="w-50 Blog1">
+            <div>
+              <img
+                src="./Images/view-image1.jpg"
+                alt="BlogImage1"
+                class="w-100 BlogImage1"
+              />
+            </div>
+            <div>
+              <a href="#" class="BlogTitle-Link"
+                ><h1 class="BlogTitle mt-5">The Best E-Liqued Bundeles</h1></a
+              >
+              <p class="BlogDescription">
+                Sell globally in minutes with localized currencies languages,
+                and experie in every market. only a variety of vaping products
+              </p>
+              <div
+                class="BlogButton d-flex align-items-center justify-content-between"
+              >
+                <button class="BlogButtonShop">Shop Now</button>
+                <div class="BlogButton border d-flex align-items-center gap-10">
+                  <img src="./Images/fire.svg" alt="fire" />
+                  <p>GET <span class="HeroOfferTextSpan">25% OFF</span> NOW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-50 d-flex flex-column gap-20">
+            <div class="Blog2 w-100 h-50 d-flex">
+              <div class="w-65">
+                <a href="#" class="BlogTitle-Link">
+                  <h3 class="BlogTitle-2">New To Vapeing?</h3>
+                </a>
+                <p class="BlogDescription-2">
+                  Whereas recognition of the inherent dignity
+                </p>
+                <button class="BlogButtonShop Blog2Button mt-5">
+                  Shop Now
+                </button>
+              </div>
+              <div class="w-35 h-100">
+                <img
+                  src="./Images/view-image2.jpg"
+                  alt="view-image2"
+                  class="BlogImage2"
+                />
+              </div>
+            </div>
+            <div class="Blog3 w-100 h-50 d-flex">
+              <div class="w-65">
+                <a href="#" class="BlogTitle-Link">
+                  <h3 class="BlogTitle-2">New To Vapeing?</h3>
+                </a>
+                <p class="BlogDescription-2">
+                  Whereas recognition of the inherent dignity
+                </p>
+                <button class="BlogButtonShop Blog2Button mt-5">
+                  Shop Now
+                </button>
+              </div>
+              <div class="w-35 h-100">
+                <img
+                  src="./Images/view-image3.jpg"
+                  alt="view-image2"
+                  class="BlogImage2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
