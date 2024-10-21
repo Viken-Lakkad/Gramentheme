@@ -508,6 +508,9 @@ li a {
 
 .Product {
   transition: var(--transition);
+  border-radius: 13px;
+  position: relative;
+  z-index: 1;
 }
 
 .Product:hover {
@@ -519,6 +522,35 @@ li a {
   padding: 5% 5%;
 }
 
+.Product:hover .ProductLike {
+  display: block;
+}
+
+.ProductLike {
+  height: 30px;
+  width: 30px;
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  display: none;
+  z-index: 2;
+  top: 25px;
+  right: 30px;
+  position: absolute;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.ProductLike:hover {
+  background-color: var(--primary-color);
+}
+
+.ProductLikeImg {
+  height: 15px;
+  width: 15px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
 .ProductTitle {
   font-family: var(--prosto-one);
   color: var(--heading-color);
@@ -526,7 +558,6 @@ li a {
   font-size: 20px;
   font-weight: 300;
   text-decoration: none;
-  margin-bottom: 5%;
 }
 
 .ProductTitle:hover {
@@ -562,12 +593,14 @@ li a {
 }
 
 .ProductCart {
-  width: 130%;
+  width: 126%;
   height: 60px;
   border-top: 1px solid var(--border);
-  margin-left: -15%;
+  margin-left: -13%;
   cursor: pointer;
   transition: var(--transition);
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
 }
 
 .ProductCartIcon {
