@@ -466,3 +466,83 @@ li a {
   margin-left: 10%;
   margin-top: 10%;
 }
+
+/* Product Section */
+
+.ProductTitleSection {
+  margin-bottom: 2%;
+}
+
+.ProductTitle {
+  font-family: var(--prosto-one);
+  color: var(--heading-color);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.ProductTabList {
+  height: 30px;
+}
+
+.ProductTab {
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.ProductsHr {
+  height: 1px;
+  background-color: var(--border);
+  border: none;
+  margin-bottom: 5%;
+}
+
+/* Product */
+
+.ProductImg {
+  margin-top: 5%;
+  padding: 5% 5%;
+}
+
+.ProductTitle {
+  font-family: var(--prosto-one);
+  color: var(--heading-color);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+
+.ProductTitle:hover {
+  color: var(--primary-color);
+}
+
+.ProductPrice {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.ProductPriceOld {
+  color: var(--border);
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+
+.ProductPriceNew {
+  color: var(--primary-color);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.ProductStar {
+  width: 20px;
+  height: 15px;
+}
+
+.ProductStarList {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
