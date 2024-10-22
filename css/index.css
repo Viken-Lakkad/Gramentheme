@@ -739,8 +739,12 @@
   margin-bottom: 3%;
 }
 
-.ArrivalOfferSpan {
+.ArrivalOfferspan {
   color: var(--primary-color);
+}
+
+.fireiconArrival {
+  margin-left: 3%;
 }
 
 .ArrivalTitle {
