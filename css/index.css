@@ -508,14 +508,14 @@
 }
 
 .Product {
-  transition: var(--transition);
   border-radius: 13px;
   position: relative;
   z-index: 1;
+  transition: var(--transition);
 }
 
-.Product:hover {
-  transform: translateY(-20px);
+.ProductImgWrapper {
+  position: relative;
 }
 
 .ProductImg {
@@ -523,8 +523,32 @@
   padding: 5% 5%;
 }
 
+.frontImage {
+  visibility: visible;
+}
+
+.backImage {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.Product:hover {
+  transform: translateY(-20px);
+}
+
 .Product:hover .ProductLike {
   display: block;
+}
+
+.Product:hover .frontImage {
+  visibility: hidden;
+}
+
+.Product:hover .backImage {
+  visibility: visible;
 }
 
 .ProductLike {
