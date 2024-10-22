@@ -340,3 +340,33 @@ span {
   z-index: 1;
   pointer-events: none;
 }
+
+/* Scrollbar */
+
+#Progress {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 100;
+  cursor: pointer;
+  opacity: 0.8;
+  border: 1px solid var(--primary-color);
+  padding: 10px;
+  border-radius: 50%;
+}
+#Progress:hover {
+  opacity: 1;
+}
+
+.Progress-Value {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 100;
+  cursor: pointer;
+  opacity: 0.8;
+}

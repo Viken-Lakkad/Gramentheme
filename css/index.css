@@ -224,6 +224,7 @@
 .ShopNowButton:hover {
   background-color: var(--white);
   color: var(--primary-color);
+  border-radius: 25px;
 }
 
 .ViewDetailsButton {
@@ -705,9 +706,131 @@
   }
 }
 
-/* Gallery Offer Section */
+/* Arrival products */
 
-/* Brand section */
+.ArrivalWrapper {
+  height: 600px;
+}
+
+.ArrivalRound1 {
+  width: 80%;
+  height: 90%;
+  border-radius: 50%;
+  background-color: var(--sub-bg);
+  margin: auto;
+}
+
+.ArrivalRound2 {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  margin: auto;
+  background-image: url(../Images/get-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Arrival products secation 1 */
+
+.ArrivalOffer {
+  font-weight: 600;
+  font-family: var(--montserrat);
+  margin-bottom: 3%;
+}
+
+.ArrivalOfferSpan {
+  color: var(--primary-color);
+}
+
+.ArrivalTitle {
+  font-family: var(--prosto-one);
+  color: var(--heading-color);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+
+.ArrivalPrice {
+  color: var(--primary-color);
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+
+.ArrivalPriceOld {
+  color: var(--border);
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+
+.ArrivalPriceNew {
+  color: var(--white);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.ArrivalDescription {
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+
+.ArrivalList {
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.ArrivalHr {
+  height: 1px;
+  background-color: var(--border);
+  border: none;
+  margin-bottom: 3%;
+  margin-left: 3%;
+}
+
+.ArrivalTimeTitle {
+  font-family: var(--prosto-one);
+  color: var(--heading-color);
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 3%;
+}
+
+.ArrivalTime {
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  height: 100px;
+}
+
+.Time {
+  height: 65px;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: 500;
+  width: 65px;
+}
+
+.TimeSpan {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  color: var(--footer-color);
+}
+
+/* end Arrival products */
+
+/* Gallery Offer Section */
 
 .GalleryWrapper {
   height: 500px;
