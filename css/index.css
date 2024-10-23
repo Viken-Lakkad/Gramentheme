@@ -151,6 +151,7 @@ nav {
   font-family: var(--montserrat);
   background-color: transparent;
   color: var(--white);
+  margin-left: -4px;
 }
 
 .SelectItem {
@@ -900,6 +901,7 @@ nav {
 
 .GalleryWrapper {
   height: 450px;
+  gap: 15px;
 }
 
 .Card {
