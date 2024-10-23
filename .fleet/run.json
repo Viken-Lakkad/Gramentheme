@@ -1,0 +1,10 @@
+{
+	"configurations": [
+		{
+			"name": "index.html (1)",
+			"type": "browser",
+			"workingDir": "D:\\Viken WrokSpace\\Learning\\Gramentheme",
+			"url": "http://127.0.0.1:5500/index.html"
+		}
+	]
+}
