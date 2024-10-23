@@ -1,5 +1,11 @@
 /* heder */
 
+nav {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  background-color: transparent;
+}
 .Hedder {
   margin-top: 2%;
 }
@@ -158,10 +164,26 @@
 
 /* Hero Section */
 
+.HeroWrapper {
+  height: 115vh;
+  width: 100%;
+  background-image: url(../Images/banner-two-image3.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  position: relative;
+}
+
+.All-Hero-Text {
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 20%;
+}
+
 .HeroOfferText {
-  margin-top: 80px;
   font-weight: 600;
   font-family: var(--montserrat);
+  color: var(--white);
 }
 
 .HeroOfferTextSpan {
@@ -174,6 +196,7 @@
   margin-top: 30px;
   font-family: var(--prosto-one);
   font-size: 60px;
+  color: var(--white);
 }
 
 .HeroTextSpan {
