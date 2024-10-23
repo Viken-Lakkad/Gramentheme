@@ -176,6 +176,10 @@ body {
 
 /* Gap */
 
+.gap-5 {
+  gap: 5px;
+}
+
 .gap-10 {
   gap: 10px;
 }

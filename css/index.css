@@ -21,6 +21,11 @@ nav {
   padding: 25px 0px;
 }
 
+.SearchIcon {
+  height: 35px;
+  width: 35px;
+}
+
 .SearchInput {
   border: none;
   outline: none;
@@ -37,7 +42,7 @@ nav {
 /* Account Wrapper */
 
 .AccountWrapper {
-  width: 35%;
+  width: 30%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
@@ -56,7 +61,7 @@ nav {
 
 .AccountName {
   font-family: var(--montserrat);
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--secondary-color);
 }
@@ -71,6 +76,8 @@ nav {
 }
 
 .CartIcon {
+  height: 25px;
+  width: 25px;
   margin-left: 10px;
 }
 
@@ -89,6 +96,7 @@ nav {
 .Language {
   background-color: var(--white);
   border-radius: 25px;
+  width: 135px;
 }
 
 .LanguageIcon {
@@ -127,7 +135,7 @@ nav {
 /* Menu summary */
 
 .Menu_summary {
-  width: 34%;
+  width: 30%;
 }
 
 .PickingText {
@@ -137,7 +145,7 @@ nav {
 
 .SelectStore {
   border: none;
-  margin-top: 15px;
+  margin-top: 7px;
   outline: none;
   font-size: 16px;
   font-family: var(--montserrat);
@@ -150,6 +158,7 @@ nav {
 }
 
 .overBoldTex {
+  color: var(--paragraph);
   font-weight: 700;
 }
 
@@ -158,7 +167,7 @@ nav {
 }
 
 .ShippingText {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 /* Hero Section */
@@ -192,7 +201,7 @@ nav {
 /* Hero Text */
 
 .HeroText {
-  margin-top: 30px;
+  margin-top: 20px;
   font-family: var(--prosto-one);
   font-size: 60px;
   color: var(--white);
@@ -203,14 +212,15 @@ nav {
 }
 
 .HeroDescription {
-  margin-top: 25px;
+  margin-top: 20px;
   font-family: var(--montserrat);
   font-size: 16px;
   color: var(--paragraph);
   line-height: 30px;
 }
+
 .HeroPrice {
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 16px;
   font-family: var(--montserrat);
   color: var(--paragraph);
@@ -223,7 +233,7 @@ nav {
 }
 
 .HeroButton {
-  margin-top: 30px;
+  margin-top: 20px;
   font-family: var(--montserrat);
   font-size: 16px;
   color: var(--white);
@@ -235,7 +245,7 @@ nav {
   background-color: var(--primary-color);
   border: none;
   outline: none;
-  padding: 15px 25px;
+  padding: 15px 30px;
   border-radius: 25px;
   cursor: pointer;
   color: var(--white);
@@ -251,15 +261,14 @@ nav {
 
 .ViewDetailsButton {
   background-color: var(--white);
-  border: 1px solid var(--white);
   outline: none;
   border: none;
-  padding: 15px 25px;
+  padding: 15px 30px;
   border-radius: 25px;
   cursor: pointer;
   color: var(--primary-color);
   font-size: 16px;
-  margin-left: 20px;
+  margin-left: 10px;
   transition: var(--transition);
 }
 
@@ -272,7 +281,7 @@ nav {
 
 .CategoriesWrapper {
   height: 450px;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 .CategoriesTitle {
@@ -594,8 +603,8 @@ nav {
 .ProductLikeImg {
   height: 15px;
   width: 15px;
+  margin-left: 6px;
   margin-top: 7px;
-  margin-left: 7px;
 }
 
 .ProductTitle {
@@ -715,8 +724,6 @@ nav {
   background-color: var(--white);
   color: var(--primary-color);
 }
-
-/*  */
 
 .CaresolWrapper {
   height: 150px;
@@ -883,7 +890,7 @@ nav {
 /* Gallery Offer Section */
 
 .GalleryWrapper {
-  height: 500px;
+  height: 450px;
 }
 
 .Card {
@@ -947,7 +954,7 @@ nav {
   height: 50%;
   top: 40%;
   z-index: 2;
-  left: 20%;
+  left: 10%;
 }
 
 .CardTitle {
@@ -1022,6 +1029,13 @@ nav {
 .secondaryFooter {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.FooterCopyrightIcon {
+  color: var(--footer-color);
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
 }
 
 .FooterCopyright {

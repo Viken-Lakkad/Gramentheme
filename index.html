@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odor - Vape Store WooCommerce</title>
-    <link rel="stylesheet" href="./css/style.css"/>
-    <link rel="stylesheet" href="./css/hover-min.css"/>
-    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/hover-min.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <!-- Custom Cursor -->
@@ -36,20 +36,48 @@
           >
             <!-- Header logo -->
             <a href="/Home.html">
-              <img src="./Images/logo.svg" alt="logo" class="logo"/>
+              <img src="./Images/logo.svg" alt="logo" class="logo" />
             </a>
 
             <!-- Header search Box -->
 
             <div
-              class="SearchBox border hp-40 d-flex align-items-center justify-content-evenly"
+              class="SearchBox hp-40 d-flex align-items-center justify-content-evenly"
             >
-              <!--<span>-->
-              <!--  <img-->
-              <!--    src="./Images/search-alt-svgrepo-com.svg"-->
-              <!--    alt="SearchIcon "-->
-              <!--    class="SearchIcon wp-25"-->
-              <!--  /></span>-->
+              <!-- Search Icon   -->
+              <svg
+                width="256px"
+                height="256px"
+                viewBox="0 0 25.00 25.00"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="SearchIcon"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.5 11.1455C5.49956 8.21437 7.56975 5.69108 10.4445 5.11883C13.3193 4.54659 16.198 6.08477 17.32 8.79267C18.4421 11.5006 17.495 14.624 15.058 16.2528C12.621 17.8815 9.37287 17.562 7.3 15.4895C6.14763 14.3376 5.50014 12.775 5.5 11.1455Z"
+                    stroke="Var(--primary-color)"
+                    stroke-width="1.625"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M15.989 15.4905L19.5 19.0015"
+                    stroke="Var(--primary-color)"
+                    stroke-width="1.625"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+              </svg>
 
               <input
                 type="text"
@@ -62,24 +90,67 @@
             <div class="AccountWrapper hp-40">
               <!-- Account -->
 
-              <div class="Account d-flex align-items-center gap-10">
-                <span class="UserIconWrapper"
-                ><img
-                  src="./Images/user-svgrepo-com.svg"
-                  alt="user-svgrepo-com"
-                  class="UserIcon wp-25"
-                /></span>
+              <div class="Account d-flex align-items-center gap-5">
+                <span class="UserIconWrapper">
+                  <!-- User Icon -->
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="UserIcon wp-25"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z"
+                        stroke="#fff"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                      <path
+                        d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z"
+                        stroke="#fff"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </span>
                 <div class="AccountName">My Account</div>
               </div>
 
               <!-- Shopping cart -->
               <div class="Cart d-flex align-items-center gap-10">
-                <span class="CartIconWrapper"
-                ><img
-                  src="./Images/cart-shopping-svgrepo-com.svg"
-                  alt="user-svgrepo-com"
-                  class="CartIcon wp-30"
-                /></span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="CartIcon"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M6.29977 5H21L19 12H7.37671M20 16H8L6 3H3M9 20C9 20.5523 8.55228 21 8 21C7.44772 21 7 20.5523 7 20C7 19.4477 7.44772 19 8 19C8.55228 19 9 19.4477 9 20ZM20 20C20 20.5523 19.5523 21 19 21C18.4477 21 18 20.5523 18 20C18 19.4477 18.4477 19 19 19C19.5523 19 20 19.4477 20 20Z"
+                      stroke="Var(--primary-color)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+
                 <div class="AccountName">$0.00</div>
                 <span
                   class="CartCount d-flex align-items-center justify-content-center"
@@ -93,8 +164,8 @@
               <div
                 class="Language d-flex align-items-center justify-content-evenly"
               >
-                <span>
-                  <img src="./Images/us.png" alt="US" class="LanguageIcon"/>
+                <span class="d-flex m-auto">
+                  <img src="./Images/us.png" alt="US" class="LanguageIcon" />
                 </span>
                 <select name="language" id="" class="LanguageSelect hp-25">
                   <option value="english">English</option>
@@ -141,7 +212,7 @@
               class="Menu_summary d-flex align-items-center justify-content-between"
             >
               <div class="HomeSummary d-flex align-items-center gap-10">
-                <img src="./Images/picking.png" alt="picking"/>
+                <img src="./Images/picking.png" alt="picking" />
                 <div>
                   <p class="PickingText">Picking up?</p>
                   <select name="Store" id="Store" class="SelectStore">
@@ -157,11 +228,11 @@
                 </div>
               </div>
               <div class="ShippingSummary d-flex align-items-center gap-10">
-                <img src="./Images/shipping.png" alt="shipping"/>
+                <img src="./Images/shipping.png" alt="shipping" />
                 <div>
                   <p>Free Shipping</p>
                   <p class="ShippingText">
-                    on order <span class="overBoldTex">over $100</span>
+                    On Order <span class="overBoldTex">Over $100</span>
                   </p>
                 </div>
               </div>
@@ -180,19 +251,19 @@
         <div class="container All-Hero-Text">
           <div class="HeroSection">
             <div class="HeroOfferText d-flex align-items-center gap-10">
-              <img src="./Images/fire.svg" alt="fire"/>
+              <img src="./Images/fire.svg" alt="fire" />
               <p>GET <span class="HeroOfferTextSpan">25% OFF</span> NOW</p>
             </div>
             <!-- Hero Text -->
             <h1 class="HeroText">
-              Find Everything <br/>
+              Find Everything <br />
               For <span class="HeroTextSpan">Vaping</span>
             </h1>
 
             <!-- Hero description -->
             <p class="HeroDescription">
               Sell Globally In Minutes With Localized Currencies Languages, And
-              <br/>
+              <br />
               Experie In Every Market. Only A Variety Of Vaping Products
             </p>
           </div>
@@ -200,7 +271,7 @@
             <p>Starting Price</p>
             <h2 class="HeroPriceBold">$99.00</h2>
           </div>
-          <div class="HeroButton d-flex gap-10">
+          <div class="HeroButton d-flex gap-5">
             <button class="ShopNowButton hvr-bounce-to-top">Shop Now</button>
             <button class="ViewDetailsButton">View Details</button>
           </div>
@@ -337,7 +408,7 @@
             <!-- End -->
           </div>
         </div>
-        <hr class="w-100 CategoriesHr mt-5"/>
+        <hr class="w-100 CategoriesHr mt-5" />
       </div>
     </section>
 
@@ -358,7 +429,7 @@
             </div>
             <div>
               <a href="#" class="BlogTitle-Link"
-              ><h1 class="BlogTitle mt-5">The Best E-Liqued Bundeles</h1></a
+                ><h1 class="BlogTitle mt-5">The Best E-Liqued Bundeles</h1></a
               >
               <p class="BlogDescription">
                 Sell globally in minutes with localized currencies languages,
@@ -369,7 +440,7 @@
               >
                 <button class="BlogButtonShop">Shop Now</button>
                 <div class="BlogButton border d-flex align-items-center gap-10">
-                  <img src="./Images/fire.svg" alt="fire"/>
+                  <img src="./Images/fire.svg" alt="fire" />
                   <p>GET <span class="HeroOfferTextSpan">25% OFF</span> NOW</p>
                 </div>
               </div>
@@ -444,7 +515,7 @@
               <li class="ProductTab">Featured Products</li>
             </ul>
           </div>
-          <hr class="w-100 ProductsHr"/>
+          <hr class="w-100 ProductsHr" />
 
           <!-- Product List -->
 
@@ -465,9 +536,7 @@
                   alt="product-image3"
                   class="ProductImg2 backImage"
                 />
-                <div
-                  class="ProductLike d-flex align-items-center justify-content-center"
-                >
+                <div class="ProductLike d-flex m-auto">
                   <img
                     src="./Images/like-svgrepo-com.svg"
                     alt="heart-svgrepo-com"
@@ -1047,15 +1116,15 @@
             </h2>
             <p class="FavouriteDescription mt-5">
               Sell globally in minutes with localized currencies languages, and
-              <br/>
+              <br />
               experie in every market. only a variety of vaping products
             </p>
             <div
-              class="mt-5 d-flex align-items-center gap-10 FavouriteButtonSection"
+              class="d-flex align-items-center gap-10 FavouriteButtonSection"
             >
               <button class="FavouriteButton">Shop Now</button>
               <div class="BlogButton border d-flex align-items-center gap-10">
-                <img src="./Images/fire.svg" alt="fire"/>
+                <img src="./Images/fire.svg" alt="fire" />
                 <p>GET <span class="HeroOfferTextSpan">25% OFF</span> NOW</p>
               </div>
             </div>
@@ -1071,9 +1140,9 @@
     <section>
       <div class="w-100 ArrivalWrapper container d-flex mt-5">
         <!-- Arrival section 1 -->
-        <div class="w-50 h-100">
+        <div class="w-50 h-100 mt-5">
           <div class="ArrivalOffer d-flex align-items-center gap-10">
-            <img src="./Images/fire.svg" alt="fire" class="fireiconArrival"/>
+            <img src="./Images/fire.svg" alt="fire" class="fireiconArrival" />
             <p>GET <span class="ArrivalOfferspan">25% OFF</span> NOW</p>
           </div>
 
@@ -1098,7 +1167,7 @@
             <li>30 Day Refund</li>
           </ul>
 
-          <hr class="ArrivalHr mt-5"/>
+          <hr class="ArrivalHr mt-5" />
 
           <div class="ArrivalTime d-flex align-items-center gap-30">
             <div>
@@ -1113,7 +1182,7 @@
                 <p>-327</p>
                 <span
                   class="TimeSpan d-flex align-items-center justify-content-center flex-column"
-                >Day</span
+                  >Day</span
                 >
               </div>
 
@@ -1183,14 +1252,16 @@
     <!-- Gallery Offer Section -->
 
     <section>
-      <div class="w-100 GalleryWrapper mt-5 d-flex align-items-center gap-20">
+      <div
+        class="w-100 GalleryWrapper mt-5 d-flex align-items-center justify-content-evenly"
+      >
         <!-- Card 1 -->
         <div class="Card image1">
           <div
             class="OfferText d-flex align-items-center justify-content-center"
           >
             <p>
-              50% <br/>
+              50% <br />
               OFF
             </p>
           </div>
@@ -1207,13 +1278,12 @@
         </div>
 
         <!-- card 2 -->
-
         <div class="Card image2">
           <div
             class="OfferText d-flex align-items-center justify-content-center"
           >
             <p>
-              50% <br/>
+              50% <br />
               OFF
             </p>
           </div>
@@ -1230,13 +1300,12 @@
         </div>
 
         <!-- card 3 -->
-
         <div class="Card image3">
           <div
             class="OfferText d-flex align-items-center justify-content-center"
           >
             <p>
-              50% <br/>
+              50% <br />
               OFF
             </p>
           </div>
@@ -1253,13 +1322,12 @@
         </div>
 
         <!-- card 4 -->
-
         <div class="Card image4">
           <div
             class="OfferText d-flex align-items-center justify-content-center"
           >
             <p>
-              50% <br/>
+              50% <br />
               OFF
             </p>
           </div>
@@ -1281,7 +1349,7 @@
             class="OfferText d-flex align-items-center justify-content-center"
           >
             <p>
-              50% <br/>
+              50% <br />
               OFF
             </p>
           </div>
@@ -1457,6 +1525,7 @@
                 placeholder="Your Email"
               />
               <div class="sendIconWrapper">
+                <!-- send icon -->
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
@@ -1488,7 +1557,7 @@
               >
                 <!-- facebook icon  -->
                 <svg
-                  fill="#fff"
+                  fill="#727272"
                   viewBox="0 0 1920 1920"
                   xmlns="http://www.w3.org/2000/svg"
                   class="facebook"
@@ -1511,16 +1580,10 @@
               <div
                 class="socialIcons d-flex align-items-center justify-content-center"
               >
-                <!-- <img
-src="./Images/twitter-154-svgrepo-com.svg"
-alt="facebook-boxed-svgrepo-com"
-class="facebook"
-                /> -->
-
                 <!-- twitter icon -->
 
                 <svg
-                  fill="#fff"
+                  fill="#727272"
                   version="1.1"
                   id="Layer_1"
                   xmlns="http://www.w3.org/2000/svg"
@@ -1557,7 +1620,7 @@ class="facebook"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   viewBox="0 0 21.903 21.903"
                   xml:space="preserve"
-                  fill="#fff"
+                  fill="#727272"
                   class="facebook"
                 >
                   <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -1569,7 +1632,6 @@ class="facebook"
                   <g id="SVGRepo_iconCarrier">
                     <g>
                       <path
-                        style="fill: #fff"
                         d="M2.67,1.211c0.682,0,1.216,0.215,1.604,0.643S4.87,2.822,4.898,3.469 c0,0.639-0.218,1.178-0.657,1.616C3.802,5.522,3.202,5.741,2.443,5.741H2.416c-0.741,0-1.328-0.219-1.765-0.656 C0.219,4.647,0,4.108,0,3.469c0-0.657,0.238-1.197,0.718-1.622C1.198,1.423,1.85,1.211,2.67,1.211z M0.287,7.535H4.97v13.156H0.287 V7.535z M21.903,13.148v7.543h-4.682v-7.036c0-0.895-0.184-1.612-0.55-2.158c-0.364-0.541-0.973-0.812-1.833-0.812 c-0.655,0-1.181,0.166-1.573,0.5c-0.393,0.332-0.678,0.699-0.85,1.102c-0.056,0.146-0.091,0.307-0.11,0.486 c-0.018,0.176-0.026,0.367-0.026,0.568v7.351H7.568c0.02-2.226,0.031-4.268,0.031-6.12v-2.339v-2.125 c0-0.647-0.007-1.199-0.018-1.657C7.575,7.997,7.568,7.69,7.568,7.535h4.711v1.863l-0.026,0.054h0.026V9.398 c0.146-0.229,0.333-0.468,0.561-0.719c0.231-0.25,0.507-0.484,0.843-0.7c0.333-0.214,0.734-0.39,1.204-0.533 c0.473-0.141,1.011-0.211,1.624-0.211c0.762,0,1.474,0.116,2.138,0.349c0.662,0.233,1.231,0.598,1.715,1.096 c0.481,0.495,0.858,1.111,1.132,1.847C21.769,11.261,21.903,12.135,21.903,13.148z"
                       ></path>
                     </g>
@@ -1582,11 +1644,11 @@ class="facebook"
               >
                 <!-- Youtube icon  -->
                 <svg
-                  fill="#fff"
+                  fill="#727272"
                   viewBox="0 0 32 32"
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
-                  stroke="#fff"
+                  stroke="#727272"
                   class="facebook"
                 >
                   <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -1611,12 +1673,41 @@ class="facebook"
         <div
           class="secondaryFooter w-100 d-flex align-items-center justify-content-between"
         >
-          <img src="./Images/logo.svg" alt="logo" class="FooterLogo"/>
-          <p class="FooterCopyright">
-            © Copyright 2023 <span class="FooterSpan">odor</span> All Rights
+          <img src="./Images/logo.svg" alt="logo" class="FooterLogo" />
+          <p class="FooterCopyright d-flex align-items-center">
+            <svg
+              viewBox="-0.5 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="FooterCopyrightIcon"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M12 21.82C17.1086 21.82 21.25 17.6786 21.25 12.57C21.25 7.46137 17.1086 3.32001 12 3.32001C6.89137 3.32001 2.75 7.46137 2.75 12.57C2.75 17.6786 6.89137 21.82 12 21.82Z"
+                  stroke="var(--footer-color)"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M15.5291 9.03003C14.5937 8.09167 13.3241 7.56293 11.9991 7.56C11.1771 7.55982 10.3677 7.76234 9.6426 8.1496C8.9175 8.53685 8.29908 9.09687 7.84206 9.78015C7.38504 10.4634 7.10349 11.2489 7.02242 12.0669C6.94135 12.8849 7.06326 13.7103 7.37728 14.47C7.69129 15.2297 8.18779 15.9003 8.82277 16.4223C9.45776 16.9443 10.2116 17.3018 11.0177 17.463C11.8238 17.6241 12.6571 17.584 13.444 17.3463C14.231 17.1086 14.9471 16.6805 15.5291 16.1"
+                  stroke="var(--footer-color)"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </svg>
+            Copyright 2023 <span class="FooterSpan"> odor </span> All Rights
             Reserved
           </p>
-          <img src="./Images/payment.png" alt="payment"/>
+          <img src="./Images/payment.png" alt="payment" />
         </div>
       </div>
     </footer>
